@@ -1,0 +1,95 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Soft Ambient Drop Shadow for 3D depth -->
+    <path
+        android:pathData="M54,54m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0"
+        android:fillColor="#15003366" />
+
+    <!-- 2. Stopwatch Top Crown Button -->
+    <path
+        android:pathData="M48,15h12v7h-12z"
+        android:fillColor="#1A73E8" />
+    <path
+        android:pathData="M51,11h6v4h-6z"
+        android:fillColor="#4285F4" />
+
+    <!-- 3. Side Start Button -->
+    <path
+        android:pathData="M73.5,23.5l5.5,5.5l-3.5,3.5l-5.5,-5.5z"
+        android:fillColor="#1A73E8" />
+
+    <!-- 4. Stopwatch Outer Dial Rim (Royal Blue Gradient) -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,1 56,0a28,28 0 1,1 -56,0"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2E5BFF" />
+                <item android:offset="1.0" android:color="#00C6FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 5. Fine ticks on the clock dial -->
+    <path
+        android:pathData="M54,29v3M54,76v3M29,54h3M76,54h3"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1A73E8"
+        android:strokeLineCap="round" />
+
+    <!-- 6. Hourglass Base and Pillars (Rich Dark Blue) -->
+    <path
+        android:pathData="M38,35h32v4h-32z"
+        android:fillColor="#1A3B8B" />
+    <path
+        android:pathData="M38,69h32v4h-32z"
+        android:fillColor="#1A3B8B" />
+
+    <!-- 7. Hourglass Glass Bulbs (Light Translucent Blue Outline) -->
+    <path
+        android:pathData="M42,39c0,0 3,11 12,15c9,-4 12,-15 12,-15h-24zM42,69c0,0 3,-11 12,-15c9,4 12,15 12,15h-24z"
+        android:strokeWidth="2"
+        android:strokeColor="#8AB4F8"
+        android:fillColor="#108AB4F8" />
+
+    <!-- 8. Top Falling Sand (Semi-filled sky blue) -->
+    <path
+        android:pathData="M44,41h20c-2,4 -6,9 -10,11c-4,-2 -8,-7 -10,-11z"
+        android:fillColor="#4285F4" />
+
+    <!-- 9. Bottom Accumulating Sand (Pill-like heap) -->
+    <path
+        android:pathData="M44,67c2,-4 6,-7 10,-7s8,3 10,7h-20z"
+        android:fillColor="#00C6FF" />
+
+    <!-- 10. Center Drizzle of Sand (Glowing line) -->
+    <path
+        android:pathData="M54,51v10"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00C6FF"
+        android:strokeLineCap="round" />
+
+    <!-- 11. Custom Glossy Light Reflective Angle Highlights -->
+    <path
+        android:pathData="M44,41q4,-3 10,-3"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M30,42a24,24 0 0,1 12,-12"
+        android:strokeWidth="2.5"
+        android:strokeColor="#50FFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>
