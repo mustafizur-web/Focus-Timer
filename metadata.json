@@ -1,0 +1,6 @@
+{
+  "name": "Focus Timer",
+  "description": "Unified Timer, Stopwatch, and Alarm utility with Soft Neumorphism and calming minimalist design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
